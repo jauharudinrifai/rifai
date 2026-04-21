@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Ali Fauzi - Guru & Desainer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <nav class="fixed w-full glass-nav shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-blue-600 tracking-tighter">Ali Fauzi.</a>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-blue-600 transition">Beranda</a>
+                <a href="#about" class="hover:text-blue-600 transition">Tentang</a>
+                <a href="#portfolio" class="hover:text-blue-600 transition">Portofolio</a>
+                <a href="#double-track" class="hover:text-blue-600 transition">Double Track</a>
+                <a href="#contact" class="px-5 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition shadow-md">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1 text-center md:text-left">
+                <span class="px-4 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-bold uppercase tracking-widest">Informatics Educator</span>
+                <h2 class="text-4xl md:text-6xl font-extrabold mt-4 leading-tight">
+                    Guru & <span class="text-blue-600">Visual Designer</span>
+                </h2>
+                <p class="mt-6 text-lg text-slate-600 max-w-xl leading-relaxed">
+                    Halo, saya Ali Fauzi. Saya mengintegrasikan teknologi informatika dengan kreativitas visual untuk menciptakan pembelajaran yang interaktif dan karya desain yang berdampak.
+                </p>
+                <div class="mt-10 flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="#portfolio" class="px-8 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 hover:-translate-y-1 transition-all shadow-lg">Lihat Karya</a>
+                    <a href="#double-track" class="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-xl font-semibold hover:bg-blue-50 transition">Kegiatan Double Track</a>
+                </div>
+            </div>
+            <div class="flex-1 flex justify-center">
+                <div class="relative w-72 h-72 md:w-96 md:h-96">
+                    <div class="absolute inset-0 bg-blue-600 rounded-3xl rotate-6 opacity-20"></div>
+                    <div class="absolute inset-0 bg-slate-200 rounded-3xl overflow-hidden shadow-2xl">
+                        <img src="profile.jpeg" alt="Ali Fauzi" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white border-y border-slate-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h3 class="text-3xl font-bold mb-6">Tentang Saya</h3>
+                    <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                        Sebagai pengajar Informatika di jenjang SMA, saya memiliki misi untuk membekali siswa dengan keterampilan digital masa depan. Selain fokus pada kurikulum Informatika, saya juga berperan dalam mengembangkan kompetensi praktis siswa melalui program Double Track di bidang Desain Grafis.
+                    </p>
+                    <div class="flex gap-4">
+                        <div class="flex items-center gap-2 text-blue-600 font-bold">
+                            <i class="fas fa-graduation-cap"></i> Mentor OSN
+                        </div>
+                        <div class="flex items-center gap-2 text-blue-600 font-bold">
+                            <i class="fas fa-certificate"></i> Certified Designer
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                        <i class="fas fa-code text-3xl text-blue-600 mb-4"></i>
+                        <h4 class="font-bold text-lg">Informatika</h4>
+                        <p class="text-sm text-slate-500">Python, PHP/MySQL, Computational Thinking.</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                        <i class="fas fa-bezier-curve text-3xl text-blue-600 mb-4"></i>
+                        <h4 class="font-bold text-lg">Creative</h4>
+                        <p class="text-sm text-slate-500">Brand Identity, Media Edukasi, UI/UX.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center md:text-left mb-12">
+                <h3 class="text-3xl font-bold italic">Selected Portfolio</h3>
+                <p class="text-slate-500 mt-2">Kombinasi proyek desain grafis dan pengembangan aplikasi.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-2xl transition-all duration-300">
+                    <div class="h-56 bg-slate-200 overflow-hidden">
+                        <img src="https://via.placeholder.com/400x300" class="group-hover:scale-110 transition duration-500 object-cover w-full h-full">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-blue-600 uppercase">Branding</span>
+                        <h4 class="text-xl font-bold mt-1">Logo Sekolah & OSIS</h4>
+                        <p class="text-slate-500 text-sm mt-3 leading-relaxed">Perancangan ulang identitas visual organisasi sekolah agar lebih modern.</p>
+                    </div>
+                </div>
+
+                <div class="group bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-2xl transition-all duration-300">
+                    <div class="h-56 bg-slate-200 overflow-hidden">
+                        <img src="https://via.placeholder.com/400x300" class="group-hover:scale-110 transition duration-500 object-cover w-full h-full">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-green-600 uppercase">Web Development</span>
+                        <h4 class="text-xl font-bold mt-1">Sistem Cek Kelulusan</h4>
+                        <p class="text-slate-500 text-sm mt-3 leading-relaxed">Aplikasi berbasis web untuk memudahkan akses informasi kelulusan siswa.</p>
+                    </div>
+                </div>
+
+                <div class="group bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-2xl transition-all duration-300">
+                    <div class="h-56 bg-slate-200 overflow-hidden">
+                        <img src="https://via.placeholder.com/400x300" class="group-hover:scale-110 transition duration-500 object-cover w-full h-full">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-purple-600 uppercase">Education</span>
+                        <h4 class="text-xl font-bold mt-1">Infografis Python</h4>
+                        <p class="text-slate-500 text-sm mt-3 leading-relaxed">Media ajar visual untuk memudahkan siswa memahami logika pemrograman.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="double-track" class="py-20 bg-slate-900 text-white overflow-hidden">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6 text-center md:text-left">
+                <div>
+                    <h3 class="text-3xl font-bold">Kegiatan <span class="text-blue-400">Double Track</span></h3>
+                    <p class="text-slate-400 mt-2">Membekali siswa SMA dengan kemandirian dan keterampilan praktis.</p>
+                </div>
+                <div class="px-6 py-2 bg-white/10 rounded-full border border-white/20 text-sm">
+                    Bidang: Multimedia & Desain Grafis
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="group relative overflow-hidden rounded-2xl h-64 shadow-2xl">
+                    <img src="https://via.placeholder.com/400x600" alt="Kegiatan 1" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <p class="text-sm font-semibold italic text-blue-300">Workshop Desain Digital</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl h-64 shadow-2xl">
+                    <img src="https://via.placeholder.com/400x600" alt="Kegiatan 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <p class="text-sm font-semibold italic text-blue-300">Praktik Produksi Kreatif</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl h-64 shadow-2xl md:col-span-2">
+                    <img src="https://via.placeholder.com/800x600" alt="Kegiatan 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <p class="text-sm font-semibold italic text-blue-300">Pameran Gelar Karya Siswa</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl h-64 shadow-2xl md:col-span-2">
+                    <img src="https://via.placeholder.com/800x600" alt="Kegiatan 4" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <p class="text-sm font-semibold italic text-blue-300">Mentoring Intensif Siswa</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl h-64 shadow-2xl">
+                    <img src="https://via.placeholder.com/400x600" alt="Kegiatan 5" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <p class="text-sm font-semibold italic text-blue-300">Sertifikasi Keahlian</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl h-64 shadow-2xl">
+                    <img src="https://via.placeholder.com/400x600" alt="Kegiatan 6" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                        <p class="text-sm font-semibold italic text-blue-300">Evaluasi Hasil Karya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6 bg-white">
+        <div class="max-w-4xl mx-auto bg-blue-600 rounded-[3rem] p-10 md:p-20 text-center text-white shadow-2xl shadow-blue-200">
+            <h3 class="text-3xl md:text-5xl font-bold mb-6 italic text-blue-50">Let's Create Something Great.</h3>
+            <p class="text-blue-100 text-lg mb-12">Ingin berkolaborasi dalam proyek desain atau edukasi? Hubungi saya kapan saja!</p>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <a href="mailto:fauzyali88@gmail.com" class="w-full md:w-auto flex items-center justify-center gap-3 bg-white text-blue-600 px-8 py-4 rounded-2xl font-bold hover:bg-slate-100 transition-all">
+                    <i class="fas fa-envelope"></i> fauzyali88@gmail.com
+                </a>
+                <a href="https://wa.me/6288996039792" class="w-full md:w-auto flex items-center justify-center gap-3 bg-green-500 text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-600 transition-all">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Me
+                </a>
+            </div>
+
+            <div class="mt-12 flex justify-center gap-8 text-2xl text-blue-200">
+                <a href="#" class="hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-400 text-sm">
+        <p>&copy; 2024 Ali Fauzi. All rights reserved.</p>
+        <p class="mt-2">Built with <span class="text-red-500">❤</span> using HTML & Tailwind CSS</p>
+    </footer>
+
+</body>
+</html>
